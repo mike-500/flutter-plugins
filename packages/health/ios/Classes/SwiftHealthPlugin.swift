@@ -342,6 +342,7 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
         dataQuantityTypesDict[HealthConstants.DISTANCE_SWIMMING] = HKQuantityType.quantityType(forIdentifier: .distanceSwimming)!
         dataQuantityTypesDict[HealthConstants.DISTANCE_CYCLING] = HKQuantityType.quantityType(forIdentifier: .distanceCycling)!
         dataQuantityTypesDict[HealthConstants.FLIGHTS_CLIMBED] = HKQuantityType.quantityType(forIdentifier: .flightsClimbed)!
+        dataQuantityTypesDict[HealthConstants.EXERCISE_TIME] = HKQuantityType.quantityType(forIdentifier: .appleExerciseTime)!
     }
     
     /// Initialize nutrition quantity types
